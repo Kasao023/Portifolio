@@ -1,0 +1,129 @@
+/* ============================================
+   RÔMULO MEIRA - PORTFÓLIO
+   ============================================ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* ---------- HERO ---------- */
+.hero {
+    background: linear-gradient(135deg, #2c3e50 0%, #1a1a2e 100%);
+    min-height: 70vh;
+    padding: 120px 0 80px;
+    display: flex;
+    align-items: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.hero .lead {
+    font-size: 1.2rem;
+    opacity: 0.95;
+}
+
+/* ---------- SEÇÕES ---------- */
+section {
+    scroll-margin-top: 20px;
+}
+
+section h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #1a1a2e;
+}
+
+/* ---------- CARDS ---------- */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 12px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* ---------- BADGES ---------- */
+.badge {
+    font-size: 0.85rem;
+    padding: 0.5rem 0.75rem;
+    font-weight: 500;
+}
+
+/* ---------- BOTÕES ---------- */
+.btn {
+    border-radius: 8px;
+    font-weight: 500;
+    padding: 0.6rem 1.5rem;
+}
+
+.btn-lg {
+    padding: 0.8rem 2rem;
+    font-size: 1.1rem;
+}
+
+/* ---------- NÚMEROS ---------- */
+.bg-dark h3 {
+    font-size: 2.2rem;
+    color: #fff;
+}
+
+/* ---------- LISTAS ---------- */
+.list-unstyled li {
+    padding: 0.3rem 0;
+}
+
+.list-unstyled i {
+    margin-right: 0.5rem;
+}
+
+/* ---------- CÍRCULOS ---------- */
+.rounded-circle {
+    font-weight: 700;
+}
+
+/* ---------- FOOTER ---------- */
+footer {
+    font-size: 0.9rem;
+}
+
+/* ---------- RESPONSIVO ---------- */
+@media (max-width: 768px) {
+    .hero {
+        min-height: auto;
+        padding: 80px 0 60px;
+    }
+    
+    .hero h1 {
+        font-size: 2rem;
+    }
+    
+    .hero .lead {
+        font-size: 1rem;
+    }
+    
+    section h2 {
+        font-size: 1.5rem;
+    }
+    
+    .btn-lg {
+        padding: 0.6rem 1.2rem;
+        font-size: 1rem;
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+}
