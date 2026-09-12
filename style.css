@@ -1,7 +1,3 @@
-/* ============================================
-   RÔMULO MEIRA - PORTFÓLIO
-   ============================================ */
-
 * {
     margin: 0;
     padding: 0;
@@ -15,7 +11,6 @@ body {
     line-height: 1.6;
 }
 
-/* ---------- HERO ---------- */
 .hero {
     background: linear-gradient(135deg, #2c3e50 0%, #1a1a2e 100%);
     min-height: 70vh;
@@ -35,7 +30,6 @@ body {
     opacity: 0.95;
 }
 
-/* ---------- SEÇÕES ---------- */
 section {
     scroll-margin-top: 20px;
 }
@@ -46,7 +40,6 @@ section h2 {
     color: #1a1a2e;
 }
 
-/* ---------- CARDS ---------- */
 .card {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     border-radius: 12px;
@@ -57,14 +50,12 @@ section h2 {
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1) !important;
 }
 
-/* ---------- BADGES ---------- */
 .badge {
     font-size: 0.85rem;
     padding: 0.5rem 0.75rem;
     font-weight: 500;
 }
 
-/* ---------- BOTÕES ---------- */
 .btn {
     border-radius: 8px;
     font-weight: 500;
@@ -76,13 +67,11 @@ section h2 {
     font-size: 1.1rem;
 }
 
-/* ---------- NÚMEROS ---------- */
 .bg-dark h3 {
     font-size: 2.2rem;
     color: #fff;
 }
 
-/* ---------- LISTAS ---------- */
 .list-unstyled li {
     padding: 0.3rem 0;
 }
@@ -91,17 +80,14 @@ section h2 {
     margin-right: 0.5rem;
 }
 
-/* ---------- CÍRCULOS ---------- */
 .rounded-circle {
     font-weight: 700;
 }
 
-/* ---------- FOOTER ---------- */
 footer {
     font-size: 0.9rem;
 }
 
-/* ---------- RESPONSIVO ---------- */
 @media (max-width: 768px) {
     .hero {
         min-height: auto;
