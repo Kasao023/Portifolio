@@ -100,6 +100,11 @@ body {
     min-height: 300px;
 }
 
+.mercado-preview {
+    background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+    min-height: 300px;
+}
+
 /* ---------- BADGES ---------- */
 .badge {
     font-size: 0.8rem;
