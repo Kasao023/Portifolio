@@ -89,9 +89,14 @@ body {
     box-shadow: 0 10px 25px rgba(0,0,0,0.1) !important;
 }
 
-/* ---------- CARDÁPIO PREVIEW ---------- */
+/* ---------- PREVIEWS ---------- */
 .cardapio-preview {
     background: linear-gradient(135deg, #27ae60 0%, #1e8449 100%);
+    min-height: 300px;
+}
+
+.agendamento-preview {
+    background: linear-gradient(135deg, #f39c12 0%, #e67e22 100%);
     min-height: 300px;
 }
 
